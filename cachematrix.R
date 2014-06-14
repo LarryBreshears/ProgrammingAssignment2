@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
         #set the value of the inverse of the matrix
         setsolve <- function(solve) m <<- solve
         #get the value of the inverse
-        getmean <- function() m
+        getsolve <- function() m
         list(set = set, get = get,
              setsolve = setsolve,
              getsolve = getsolve)
