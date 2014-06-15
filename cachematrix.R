@@ -45,3 +45,13 @@ cacheSolve <- function(x, ...) {
         m
         ## Return a matrix that is the inverse of 'x'
 }
+
+#To use this combination of functions in the console:
+# 1. Source the above code
+# 2. use the set function to imput the matrix
+#    Example "m$set(matrix(c(0,2,2,0),2,2))
+# 3. Call the cacheSolve(m) function
+#    That will cach and solve the matrix if it is not
+#    already cached.
+# 4. call the cacheSolve(m) function a second time.
+#    That will return the cached/solved matrix.
